@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/7",
+                "/usr/include/x86_64-linux-gnu/c++/7",
+                "/usr/include/c++/7/backward",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include",
+                "/usr/include/openssl"
+
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": []
+        }
+    ],
+    "version": 4
+}

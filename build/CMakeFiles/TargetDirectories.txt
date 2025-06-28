@@ -1,0 +1,3 @@
+/media/ankith/SSD/VSCode/EncryptDecryptProject/build/CMakeFiles/EncryptDecryptProject.dir
+/media/ankith/SSD/VSCode/EncryptDecryptProject/build/CMakeFiles/edit_cache.dir
+/media/ankith/SSD/VSCode/EncryptDecryptProject/build/CMakeFiles/rebuild_cache.dir
