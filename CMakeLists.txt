@@ -31,6 +31,7 @@ find_package(OpenSSL REQUIRED)
 
 add_executable(EncryptDecryptProject 
 src/main.cpp
+src/MessageLogger.cpp
 src/cryptoAlgo.cpp)
 
 target_link_libraries(EncryptDecryptProject OpenSSL::Crypto)
