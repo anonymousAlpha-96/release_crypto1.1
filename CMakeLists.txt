@@ -29,6 +29,14 @@ endif()
 # Find OpenSSL again (now it should be present)
 find_package(OpenSSL REQUIRED)
 
+add_custom_target(
+    clean-all
+    COMMAND ${CMAKE_COMMAND} -P cmake_clean.cmake
+    COMMAND ${CMAKE_COMMAND} --build . --target clean
+    COMMAND ${CMAKE_COMMAND} -E rm -rf ${CMAKE_BINARY_DIR}/*
+    COMMENT "Removing all build files and cleaning project"
+)
+
 add_executable(EncryptDecryptProject 
 src/main.cpp
 src/MessageLogger.cpp
